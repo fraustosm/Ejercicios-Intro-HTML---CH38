@@ -1,25 +1,24 @@
-<!--Identifica y corrige los errores del documento html. 
-No olvides colocar un comentario por cada cosa que modifiques-->
-
 <!DOCTYPE html>
 <html lang="en"> <!--Ejemplo: Faltaban comillas en el valor del atributo-- >
 <head>
-<meta charset=”UTF-65”>
+<meta charset="UTF-8"> <!-- numero equivocado -->
 <meta name="viewport" content="Ejercicio HTML - Corrige los errores">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 </head>
-<title>World Wide Web</title>
-<body>
-
+	@@ -14,12 +12,16 @@
 <h1>World Wide Web</h1>
 
 <p>
-En informática, la <strong>World Wide Web<strong> (WWW) o red informática mundial comúnmente conocida como la web, es un sistema de distribución de documentos de hipertexto o hipermedios interconectados y accesibles vía Internet. Con un navegador web, un usuario visualiza sitios web compuestos de páginas web que pueden contener texto, imágenes, vídeos u otros contenidos multimedia, y navega a través de esas páginas usando hiperenlaces.
+En informática, la <strong>World Wide Web<strong> (WWW) o red informática mundial comúnmente conocida como la web, es un sistema de distribución de documentos de hipertexto o hipermedios interconectados y accesibles vía Internet. Con un navegador web, un usuario visualiza sitios web compuestos de páginas web que pueden contener texto, imágenes, vídeos u otros contenidos multimedia, y navega a través de esas páginas usando hiperenlaces. </p> <!-- agregué el closing tag del bloque -->
+  <!-- wrap text-->
 
-<h2>Historia<h2>
+<h2>Historia</h2> <!-- eran dos opening tag, en lugar de una de abierto y otra de cerrado-->
 
 <p>
-La web se desarrolló entre marzo de 1989 y diciembre de 1990 por el inglés Tim Berners-Lee con la ayuda del belga Robert Cailliau mientras trabajaban en el <em>CERN en Ginebra, Suiza, y publicado en 1992.
+La web se desarrolló entre marzo de 1989 y diciembre de 1990 por el inglés Tim Berners-Lee con la ayuda del belga Robert Cailliau mientras trabajaban en el <em>CERN en Ginebra, Suiza, y publicado en 1992. <!--Wrap text-->
 </p>
-
-<p>Fuente: <em>Wikipedia</p></em>
+</body> <!-- faltaba el closing tag de body-->
+  <footer> <!-- agregué footer, abierto y cerrado-->
+  <p>Fuente: <em>Wikipedia</em> </p> <!--Estaban mal colocados los tags, primero es el em y despues el p-->
+</footer>
+  <html>
