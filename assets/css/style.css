@@ -10,8 +10,11 @@ img{
 
 p{
     color: cornsilk;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 section, h1, h2{
     align-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: aliceblue;
 }
+

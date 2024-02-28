@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color_texto: #5c3d5b;
+    --color_elementos_fieldset: #4d3e6b;
+    --color_fieldset_boton: #f07360; 
+}
