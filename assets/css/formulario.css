@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -9,3 +9,89 @@
     --color_elementos_fieldset: #4d3e6b;
     --color_fieldset_boton: #f07360; 
 }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#logo {
+    width: 80px;
+    height: auto;
+    margin: 20px;
+}
+
+nav> ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.elementos-navegacion {
+    margin: 20px 50px;
+}
+
+.elementos-navegacion a {
+    text-decoration: none;
+    color: var(--color_texto);
+}
+
+.elementos-navegacion a:hover {
+    color: #f07360;
+    text-decoration: underline overline;
+}
+
+h1 {
+    color:var(--color_texto);
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+}
+
+fieldset {
+    border-color: var(--color_fieldset_boton);
+    border-radius: 1em;
+    color: var(--color_elementos_fieldset);
+    margin: 20px;
+}
+
+legend {
+    text-align: left;
+    font-size: 1.6em;
+}
+
+legend::first-letter {
+    color: var(--color_fieldset_boton);
+}
+
+#datos-basicos, #datos-pedido, #datos-envio {
+    padding: 30px 50px;
+}
+
+#datos-basicos label, 
+#datos-pedido label {
+    display: block;
+}
+
+#datos-basicos input,
+#datos-pedido input {
+    border:3px solid var(--color_elementos_fieldset);
+    width: 200px;
+    height: 30px;
+}
+
+
+input[type="text"]: focus;
+input[type="email"]:focus;
+input[type="tel"]: focus;
+input[type="date"]: focus;
+    outline: none;
+    box-shadow: 5px 3px var(--color_elementos_fiedlset);
+}
+
+
