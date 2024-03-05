@@ -260,3 +260,16 @@ imprimirMensajeConCallbacks( imprimirEnConsola  , "Hola, ya merito nos vamos al 
 imprimirMensajeConCallbacks( imprimirEnParagraph  , "Hola, ya merito nos vamos al primer descanso" );
 imprimirMensajeConCallbacks( function(mensaje){ console.log(mensaje)}  , "Hola, ya merito nos vamos al primer descanso" );
 imprimirMensajeConCallbacks( mensaje => console.log(mensaje)  , "Hola, ya merito nos vamos al primer descanso" );
+
+// ================ método de ordenamiento ========
+
+const nombres = ["Nicole","Emmanuel","Donaji","Erick","Andrés","Kristian"];
+
+//  Ordenar de manera ascendente
+console.log( nombres.sort());
+
+const frutas = ["Manzana", "zarzamora", "Pera", "fresa"]; // [Manzana, Pera, fresa, zarzamora]
+console.log( frutas.sort() ); // ['Manzana', 'Pera', 'fresa', 'zarzamora']
+
+const numeros = [ 5, 100, 3, 20 ]; // 100, 20, 3, 5
+console.log( numeros.sort() );
