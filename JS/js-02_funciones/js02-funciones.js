@@ -273,3 +273,18 @@ console.log( frutas.sort() ); // ['Manzana', 'Pera', 'fresa', 'zarzamora']
 
 const numeros = [ 5, 100, 3, 20 ]; // 100, 20, 3, 5
 console.log( numeros.sort() );
+
+function comparacion (a,b){
+    if(a>b){
+        return -1;}
+
+    if(a<b) {
+        return 1;}
+}
+
+console.log( numeros.sort ( comparacion));
+console.log([100, 20, 3, 5].sort(compare));
+
+// Orden descendente
+const comparacionDescendiente = (a,b) => b-a;
+console.log([4, 90, 2, 67].sort((a,b)=> b-a));
